@@ -1,0 +1,36 @@
+
+body{
+    padding: 0px;    
+}
+
+.z-window-content
+{
+    padding: 0px !important;
+}
+
+@media screen and (max-width: 700px) 
+{ 
+    .content
+    {
+        width: 90%;
+        background-color: red;
+    }
+} 
+
+@media screen and (min-width: 700px) 
+{ 
+    .content
+    {
+        width: 80%;
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1300px) 
+{ 
+    .content
+    {
+        width: 70%;
+        background-color: green;
+    }
+}
